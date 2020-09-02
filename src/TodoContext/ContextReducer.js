@@ -115,7 +115,7 @@ const todosAction = (draft, action) => {
     }
 
     case 'empty-todos': {
-      draft.currentType = '';
+      draft.currentType = 'all';
       draft.currentTodos = [];
       draft.allTodos = [];
       return;
