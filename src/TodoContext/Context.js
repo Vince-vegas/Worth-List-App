@@ -12,7 +12,8 @@ const TodosProvider = (props) => {
 
   // Add a new todo
   const submitTask = (e) => {
-    const id = Math.floor(Math.random() * 1000000);
+    if(task.length > 0){
+     const id = Math.floor(Math.random() * 1000000);
 
     if (currentType === 'all') {
       dispatch({ type: 'add-new-todo', id, task });
@@ -26,6 +27,7 @@ const TodosProvider = (props) => {
 
     setTask('');
     e.preventDefault();
+    }
   };
 
   // delete a todo
