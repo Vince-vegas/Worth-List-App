@@ -26,8 +26,8 @@ const TodosProvider = (props) => {
     }
 
     setTask('');
-    e.preventDefault();
     }
+    e.preventDefault();
   };
 
   // delete a todo
