@@ -5,6 +5,7 @@ Make a list of all your work today.
 Built with:
 
 - [React](https://reactjs.org/)
+= [Styled-Components](https://styled-components.com/)
 
 ## Run the Project:
 
