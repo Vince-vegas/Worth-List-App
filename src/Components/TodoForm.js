@@ -21,6 +21,19 @@ const TodoForm = styled.form`
     font-size: 18px;
     color: #fff;
     background: #4cb3f8;
+    padding: 0 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    input {
+      flex-basis: 80%;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+
+    button {
+      font-size: 16px;
+    }
   }
 `;
 
